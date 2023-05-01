@@ -48,4 +48,6 @@ a{
 .image{
     justify-content: center;
 }
-  
+.dropdown-item{
+    color: #002147 !important;
+}

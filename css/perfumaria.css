@@ -35,6 +35,9 @@
 .pag{
     height: 125px;
 }
+.dropdown-item{
+    color: #002147 !important;
+}
 .segura{
     height: 168px;
 }

@@ -45,7 +45,9 @@ body {
     margin: 0;
     padding: 0;
 }
-
+.dropdown-item{
+    color: #002147 !important;
+}
 h1 {
     text-align: center;
     font-size: 36px;

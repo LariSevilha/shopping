@@ -9,6 +9,9 @@
 a{
     color: #ffffff !important;
 }
+.dropdown-item{
+    color: #002147 !important;
+}
 .card-image-logo {
     height: 100px;
 }
@@ -40,6 +43,7 @@ a{
 }
 .pag{
     height: 125px;
+    width: 270px;
 }
 .segura{
     height: 168px;
@@ -54,4 +58,47 @@ a{
 .child{
     font-family: inika;
     font-size: 42px;
+}
+.card-text{
+    font-size: 0.8rem;
+}
+.card:hover {
+    transform: scale(1.05);
+    border: 2px solid #146bce;
+    border-radius: 10px;
+}
+.valor, .roupa{
+    font-family: inika;
+    font-weight: bold;
+    font-size: 17px;
+}
+.mulher{
+    justify-content: center;
+}
+.text{
+    color: #002147;
+    font-family: inika;
+    font-weight: bold;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.fone, .br{
+    width: 75% !important;
+}
+.caf{
+    width: 67% !important;
+}
+.as{
+    width: 55% !important;
+}
+.antigo{
+    color: red;
+    font-family: inika;
+    text-decoration: line-through;
+    font-size: 15px;
+}
+.pneu{
+    margin-top: 62px;
 }

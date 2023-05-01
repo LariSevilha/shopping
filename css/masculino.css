@@ -16,7 +16,9 @@
 .card {
     border: 1px solid black;
 }
-
+.dropdown-item{
+    color: #002147 !important;
+}
 .card-img-top {
     height: 200px;
 }

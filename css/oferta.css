@@ -12,7 +12,9 @@ a{
 .card-image-logo {
     height: 100px;
 }
-
+.dropdown-item{
+    color: #002147 !important;
+}
 .imgs {
     display: flex;
     gap: 44px;

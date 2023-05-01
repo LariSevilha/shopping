@@ -48,3 +48,6 @@ a{
 .card-img-top{
     width: 210px !important;
 }
+.dropdown-item{
+    color: #002147 !important;
+}
