@@ -1,0 +1,60 @@
+.logo {
+    width: 358px;
+    height: 87px;
+}
+.nav{
+    background: #002147 !important;
+    color: #ffffff !important;
+}
+a{
+    color: #ffffff !important;
+}
+.card-image-logo {
+    height: 100px;
+}
+.card {
+    height: 400px;
+  }
+  
+.imgs {
+    display: flex;
+    gap: 44px;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid black;
+}
+
+.card-img-top {
+    height: 200px;
+}
+.fim{
+    margin-left: 401px;
+    display: flex;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 85px;
+    margin-top: 70px;
+    background-color: #CBCBCB;
+    justify-content: center;
+}
+.pag{
+    height: 125px;
+}
+.segura{
+    height: 168px;
+}
+.slogan{
+    width: 1115px;
+    margin-top: 87px;
+}
+.section-child{
+    background-color: #7EA7D8;
+}
+.child{
+    font-family: inika;
+    font-size: 42px;
+}

@@ -1,0 +1,60 @@
+.logo {
+    width: 358px;
+    height: 87px;
+}
+
+.card-image-logo {
+    height: 100px;
+}
+
+.imgs {
+    display: flex;
+    gap: 44px;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid black;
+}
+.nav{
+    background: #002147 !important;
+    color: #ffffff !important;
+}
+a{
+    color: #ffffff !important;
+}
+.card-img-top {
+    height: 200px;
+}
+.fim{
+    margin-left: 401px;
+    display: flex;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 85px;
+    margin-top: 70px;
+    background-color: #CBCBCB;
+    justify-content: center;
+}
+.pag{
+    height: 125px;
+}
+.segura{
+    height: 168px;
+}
+
+#exampleInputEmail1, #exampleInputPassword1, #formFile, #exampleInputName1{
+    width: 50% !important;
+    align-items: center;
+}
+.form-label{
+    color: #002147;
+}
+h2{
+    color: #002147;
+}
+.btn{
+    background-color: #002147 !important;
+} 
