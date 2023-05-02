@@ -38,7 +38,6 @@
 a{
     color: #ffffff !important;
 }
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
@@ -53,6 +52,9 @@ h1 {
     font-size: 36px;
     margin-top: 50px;
     margin-bottom: 30px;
+    color: #002147;
+    font-family: inika;
+    font-size: 24px;
 }
 
 p {
@@ -60,4 +62,17 @@ p {
     line-height: 1.5;
     margin: 20px;
     text-align: justify;
+    color: #002147;
+    font-family: inika;
+
+
 }
+.btn-outline-success {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+.btn-outline-success:hover {
+    background-color: #fff !important;
+    color: #002147 !important;
+}
+  

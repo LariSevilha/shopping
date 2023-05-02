@@ -20,11 +20,13 @@
 .card-img-top {
     height: 200px;
 }
-.fim{
+
+.fim {
     margin-left: 401px;
     display: flex;
 }
-.footer{
+
+.footer {
     display: flex;
     align-items: center;
     gap: 85px;
@@ -32,23 +34,69 @@
     background-color: #CBCBCB;
     justify-content: center;
 }
-.pag{
+
+.pag {
     height: 125px;
 }
-.dropdown-item{
+
+.dropdown-item {
     color: #002147 !important;
 }
-.segura{
+
+.segura {
     height: 168px;
 }
-.nav{
+
+.nav {
     background: #002147 !important;
     color: #ffffff !important;
 }
-a{
+
+a {
     color: #ffffff !important;
 }
-.image{
+
+.image {
     justify-content: center;
+    gap: 4px;
 }
+
+.card:hover {
+    transform: scale(1.05);
+    border: 2px solid #146bce;
+    border-radius: 10px;
+}
+.btn-outline-success {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+.btn-outline-success:hover {
+    background-color: #fff !important;
+    color: #002147 !important;
+}
+.text{
+    color: #002147;
+    font-family: inika;
+    font-weight: bold;
+}
+.text-per{
+    color: #002147;
+    font-family: inika;
+    font-weight: bold;
+    font-size: 48px;
+}
+.page-link {
+    background-color: #002147 !important;
+    color: white !important;
+}
+
+.page-link:hover {
+    background-color: #002147 !important;
+    color: white !important;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
   

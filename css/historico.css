@@ -51,3 +51,22 @@ a{
 .dropdown-item{
     color: #002147 !important;
 }
+.card:hover {
+    transform: scale(1.05);
+    border: 2px solid #146bce;
+    border-radius: 10px;
+}
+.btn-outline-success {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+.btn-outline-success:hover {
+    background-color: #fff !important;
+    color: #002147 !important;
+}
+.text{
+    color: #002147;
+    font-family: inika;
+    font-weight: bold;
+    font-size: 24px;
+}

@@ -61,3 +61,12 @@ h2{
 .dropdown-item{
     color: #002147 !important;
 }
+.btn-outline-success {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+.btn-outline-success:hover {
+    background-color: #fff !important;
+    color: #002147 !important;
+}
+  
