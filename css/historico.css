@@ -21,6 +21,7 @@ a{
 }
 .card {
     border: 1px solid black;
+    height: 100% !important;
 }
 
 .card-img-top {

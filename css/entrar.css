@@ -46,8 +46,8 @@ a{
     color: #ffffff !important;
 }
 #exampleInputEmail1, #exampleInputPassword1{
-    width: 50% !important;
-    align-items: center;
+    /* width: 50% !important; */
+    /* align-items: center; */
 }
 .form-label{
     color: #002147;

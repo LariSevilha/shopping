@@ -17,7 +17,8 @@ a{
 }
 .card {
     height: 400px;
-    height: 280px;
+    height: 100% !important;
+    align-items: center;
   }
   
 .imgs {
@@ -28,6 +29,8 @@ a{
 
 .card-img-top {
     height: 200px;
+    width: 100%;
+    object-fit: cover;
 }
 .fim{
     margin-left: 401px;

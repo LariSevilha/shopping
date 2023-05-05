@@ -23,6 +23,7 @@ a{
 
 .card {
     border: 1px solid black;
+    height: 100%;
 }
 
 .card-img-top {

@@ -26,17 +26,16 @@
     <nav class="navbar navbar-expand-lg navbar-light nav">
       <div class="container-fluid">
         <div class="container">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+          <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
+            <ul class="navbar-nav mb-2 me-auto mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Início</a> 
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="historico.html">Histórico de compra</a>
+                <a class="nav-link active" href="sobre.html">Sobre nós</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -51,22 +50,20 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="oferta.html">Ofertas do dia</a>
+                <a class="nav-link active" href="historico.html">Histórico de compra</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="sobre.html">Sobre nós</a>
+                <a class="nav-link active" href="oferta.html">Ofertas do dia</a>
               </li>
-              <div class="fim">
-                <li class="nav-item">
-                  <a class="nav-link active" href="cadastrar.html">Criar Conta</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="entrar.html">Entrar</a>
-                </li>
-                <li class="nav-item">
-                  <i class="bi bi-cart-plus"></i>
-                </li>
-              </div>
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="cadastrar.html">Criar Conta</a>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <a class="nav-link active" href="entrar.html">Entrar</a>
+                <i class="bi bi-cart-plus text-white"></i>
+              </li>
             </ul>
           </div>
         </div>
@@ -79,9 +76,9 @@
         <h6 class="text-center mt-3 text">Olá, Jales!</h6>
         <p class="text-center">Essas foram as compras que você realizou em nossa plataforma nos ultimos meses.</p>
         <div class="row">
-          <div class="col-sm-4">
-            <div class="card">
-              <img src="../images/mochila.jpg" class="card-img-top" alt="...">
+          <div class="col-6 col-sm-4 mb-4">
+            <div class="card align-items-center">
+              <img src="../images/mochila.jpg" class="w-100 h-100 " alt="...">
               <div class="card-body">
                 <h5 class="card-title">Mochila preta grande</h5>
                 <p class="card-text">Mochila Impermeável Resistente.</p>
@@ -90,9 +87,9 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="card">
-              <img src="../images/camisetas.jpg" class="card-img-top" alt="...">
+          <div class="col-6 col-sm-4 mb-4">
+            <div class="card align-items-center">
+              <img src="../images/camisetas.jpg" class="w-100 h-100" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Kit 5 camisetas</h5>
                 <p class="card-text">Kit 5 Camisetas Masculinas de Algodão.</p>
@@ -101,9 +98,9 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="card">
-              <img src="../images/blusa.jpg" class="card-img-top" alt="...">
+          <div class="col-6 col-sm-4 mb-4 d-none d-sm-block">
+            <div class="card align-items-center">
+              <img src="../images/blusa.jpg" class="w-100 h-100" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Blusa Frio Moletom</h5>
                 <p class="card-text">Blusa Frio Moletom Sem Estampa Liso.</p>
@@ -116,32 +113,28 @@
         <button type="button" class="btn btn-outline-primary mt-4">Ver mais</button>
       </div>
     </section>
-    <footer>
-      <div class="footer">
+    <footer class="footer col-12">
+      <div class=" container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-6 col-lg-3 d-flex justify-content-center">
             <img class="segura" src="../images/Frame 69.png" alt="">
+          </div>   
+          <div class="col-6 col-lg-3 d-flex justify-content-center">
+            <img class= "pag" src="../images/Frame 30.png" alt="">
           </div>
-        </div>
-        <div>
-          <ul>
-            <p>Deixe-nos ajudar você:</p>
-            <li>Sua Conta</li>
-            <li>Frete e prazo de entrega</li>
-            <li>Devoluções e reembolsos </li>
-            <li>Ajuda</li>
-          </ul>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <p> <i class="bi bi-instagram"></i> shoppingsevilha.com.br</p>
-            <p><i class="bi bi-envelope-at"></i> @shoppingSevilha</p>
-            <p> <i class="bi bi-telephone-fill"></i> 0800 9000</p>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <ul>
+              <p>Deixe-nos ajudar você:</p>
+              <li>Sua Conta</li>
+              <li>Frete e prazo de entrega</li>
+              <li>Devoluções e reembolsos </li>
+              <li>Ajuda</li>
+            </ul>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <img class="pag" src="../images/Frame 30.png" alt="">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <p> <i class="bi bi-instagram"></i> shoppingsevilha.com.br</p>  
+            <p><i class="bi bi-envelope-at"></i> @shoppingSevilha</p>   
+            <p> <i class="bi bi-telephone-fill"></i> 0800 9000</p>   
           </div>
         </div>
       </div>

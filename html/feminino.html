@@ -26,17 +26,16 @@
     <nav class="navbar navbar-expand-lg navbar-light nav">
       <div class="container-fluid">
         <div class="container">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+          <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
+            <ul class="navbar-nav mb-2 me-auto mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Início</a> 
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="historico.html">Histórico de compra</a>
+                <a class="nav-link active" href="sobre.html">Sobre nós</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -51,22 +50,20 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="oferta.html">Ofertas do dia</a>
+                <a class="nav-link active" href="historico.html">Histórico de compra</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="sobre.html">Sobre nós</a>
+                <a class="nav-link active" href="oferta.html">Ofertas do dia</a>
               </li>
-              <div class="fim">
-                <li class="nav-item">
-                  <a class="nav-link active" href="cadastrar.html">Criar Conta</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="entrar.html">Entrar</a>
-                </li>
-                <li class="nav-item">
-                  <i class="bi bi-cart-plus"></i>
-                </li>
-              </div>
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="cadastrar.html">Criar Conta</a>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <a class="nav-link active" href="entrar.html">Entrar</a>
+                <i class="bi bi-cart-plus text-white"></i>
+              </li>
             </ul>
           </div>
         </div>
@@ -101,35 +98,36 @@
       </div>
     </section>
     <section>
-        <div class="container">
-            <h1 class="text-center mt-5 text">Shein</h1>
-            <div class="row text-center image">
-                <div class="col-md-2 card">
-                    <img src="../images/fem1.jpeg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px;">
-                    <p class="text-center">Blusa Verde de Algodão</p>
-                    <p class="text-center">R$ 45,90</p>
-                </div>
-                <div class="col-md-2 card">
-                    <img src="../images/femi2.jpeg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px;">
-                    <p class="text-center">Conjunto estiloso</p>
-                    <p class="text-center">R$ 69,90</p>
-                </div>
-                <div class="col-md-2 card">
-                    <img src="../images/femin3.jpg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px;">
-                    <p class="text-center">Conjunto Anitta</p>
-                    <p class="text-center">R$ 109,90</p>
-                </div>
-                <div class="col-md-2 card">
-                    <img src="../images/feni4.jpg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px;">
-                    <p class="text-center">Blusa Borboleta</p>
-                    <p class="text-center">R$ 29,90</p></div>
-                <div class="col-md-2 card">
-                    <img src="../images/femi5.jpeg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px;">
-                    <p class="text-center">Calça Branca desenhada</p>
-                    <p class="text-center">R$ 69,90</p>
-                </div>
-            </div>
+      <div class="container">
+        <h1 class="text-center mt-5 text">Shein</h1>
+        <div class="row text-center image">
+          <div class="col-4 col-md-2 card">
+            <img src="../images/fem1.jpeg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px; object-fit:cover;">
+            <p class="text-center">Blusa Verde de Algodão</p>
+            <p class="text-center">R$ 45,90</p>
+          </div>
+          <div class="col-4 col-md-2 card">
+            <img src="../images/femi2.jpeg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px; object-fit:cover;">
+            <p class="text-center">Conjunto estiloso</p>
+            <p class="text-center">R$ 69,90</p>
+          </div>
+          <div class="col-4 col-md-2 card">
+            <img src="../images/femin3.jpg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px; object-fit:cover;">
+            <p class="text-center">Conjunto Anitta</p>
+            <p class="text-center">R$ 109,90</p>
+          </div>
+          <div class="col-4 col-md-2 card">
+            <img src="../images/feni4.jpg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px; object-fit:cover;">
+            <p class="text-center">Blusa Borboleta</p>
+            <p class="text-center">R$ 29,90</p>
+          </div>
+          <div class="col-4 col-md-2 card">
+            <img src="../images/femi5.jpeg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px; object-fit:cover;">
+            <p class="text-center">Calça Branca desenhada</p>
+            <p class="text-center">R$ 69,90</p>
+          </div>
         </div>
+      </div>
                
     </section>
     
@@ -137,27 +135,27 @@
         <div class="container">
             <h1 class="text-center mt-5 text">Morena Rosa</h1>
             <div class="row text-center image">
-                <div class="col-md-2 card">
-                    <img src="../images/c1.jpeg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px;">
+                <div class="col-4 col-md-2 card">
+                    <img src="../images/c1.jpeg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px; object-fit:cover;">
                     <p class="text-center">Conjunto Lilás</p>
                     <p class="text-center">R$ 99,90</p>
                 </div>
-                <div class="col-md-2 card">
-                    <img src="../images/c2.jpeg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px;">
+                <div class="col-4 col-md-2 card">
+                    <img src="../images/c2.jpeg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px; object-fit:cover;">
                     <p class="text-center">Conjunto Verde limão</p>
                     <p class="text-center">R$ 109,90</p>
                 </div>
-                <div class="col-md-2 card">
-                    <img src="../images/c3.jpg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px;">
+                <div class="col-4 col-md-2 card">
+                    <img src="../images/c3.jpg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px; object-fit:cover;">
                     <p class="text-center">Conjunto Peróla</p>
                     <p class="text-center">R$ 159,90</p>
                 </div>
-                <div class="col-md-2 card">
-                    <img src="../images/c4.jpeg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px;">
+                <div class="col-4 col-md-2 card">
+                    <img src="../images/c4.jpeg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px; object-fit:cover;">
                     <p class="text-center">Body/Maiô Jade Picon</p>
                     <p class="text-center">R$ 59,90</p></div>
-                <div class="col-md-2 card">
-                    <img src="../images/c5 (cópia 1).jpeg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px;">
+                <div class="col-4 col-md-2 card">
+                    <img src="../images/c5 (cópia 1).jpeg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px; object-fit:cover;">
                     <p class="text-center">Macacão Jeans</p>
                     <p class="text-center">R$ 69,90</p>
                 </div>
@@ -169,59 +167,55 @@
         <div class="container">
             <h1 class="text-center mt-5 text">Carmen Steffens</h1>
             <div class="row text-center image">
-                <div class="col-md-2 card">
-                    <img src="../images/carmen1.jpg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px;">
+                <div class="col-4 col-md-2 card">
+                    <img src="../images/carmen1.jpg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px; object-fit:cover;">
                     <p class="text-center">Conjunto Preto</p>
                     <p class="text-center">R$ 199,90</p>
                 </div>
-                <div class="col-md-2 card">
-                    <img src="../images/carmen2.jpeg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px;">
+                <div class="col-4 col-md-2 card">
+                    <img src="../images/carmen2.jpeg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px; object-fit:cover;">
                     <p class="text-center">Sandália Salto 15</p>
                     <p class="text-center">R$ 115,90</p>
                 </div>
-                <div class="col-md-2 card">
-                    <img src="../images/carmen3.jpg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px;">
+                <div class="col-4 col-md-2 card">
+                    <img src="../images/carmen3.jpg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px; object-fit:cover;">
                     <p class="text-center">Kit bolsa + Carteira</p>
                     <p class="text-center">R$ 359,90</p>
                 </div>
-                <div class="col-md-2 card">
-                    <img src="../images/carmen4.jpeg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px;">
+                <div class="col-4 col-md-2 card">
+                    <img src="../images/carmen4.jpeg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px; object-fit:cover;">
                     <p class="text-center">Calça com corrente</p>
                     <p class="text-center">R$ 499,90</p></div>
-                <div class="col-md-2 card">
-                    <img src="../images/carmen5.jpeg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px;">
+                <div class="col-4 col-md-2 card">
+                    <img src="../images/carmen5.jpeg" class="d-block img-fluid align-self-center" alt="..." style="width: 150px; height: 150px; object-fit:cover;">
                     <p class="text-center">Blusa branca</p>
                     <p class="text-center">R$ 129,90</p>
                 </div>
             </div>
         </div>
     </section>
-    <footer>
-      <div class="footer">
+    <footer class="footer col-12">
+      <div class=" container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-6 col-lg-3 d-flex justify-content-center">
             <img class="segura" src="../images/Frame 69.png" alt="">
+          </div>   
+          <div class="col-6 col-lg-3 d-flex justify-content-center">
+            <img class= "pag" src="../images/Frame 30.png" alt="">
           </div>
-        </div>
-        <div>
-          <ul>
-            <p>Deixe-nos ajudar você:</p>
-            <li>Sua Conta</li>
-            <li>Frete e prazo de entrega</li>
-            <li>Devoluções e reembolsos </li>
-            <li>Ajuda</li>
-          </ul>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <p> <i class="bi bi-instagram"></i> shoppingsevilha.com.br</p>
-            <p><i class="bi bi-envelope-at"></i> @shoppingSevilha</p>
-            <p> <i class="bi bi-telephone-fill"></i> 0800 9000</p>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <ul>
+              <p>Deixe-nos ajudar você:</p>
+              <li>Sua Conta</li>
+              <li>Frete e prazo de entrega</li>
+              <li>Devoluções e reembolsos </li>
+              <li>Ajuda</li>
+            </ul>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <img class="pag" src="../images/Frame 30.png" alt="">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <p> <i class="bi bi-instagram"></i> shoppingsevilha.com.br</p>  
+            <p><i class="bi bi-envelope-at"></i> @shoppingSevilha</p>   
+            <p> <i class="bi bi-telephone-fill"></i> 0800 9000</p>   
           </div>
         </div>
       </div>
