@@ -71,3 +71,11 @@ a{
     font-weight: bold;
     font-size: 24px;
 }
+.toast-header strong {
+    font-size: 18px !important;
+    color: #002147 !important;
+  }
+  
+.toast-body{
+color: #002147 !important;
+}

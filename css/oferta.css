@@ -76,3 +76,18 @@ a{
     font-size: 17px;
     font-weight: bold;
 }
+.toast-header strong {
+    font-size: 20px !important;
+    color: red !important;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.toast-body{
+  color: #002147 !important;
+  font-family: sans-serif;
+  font-size: 16px !important;
+}
+.icon-size {
+    font-size: 25px !important;
+  }
+  
